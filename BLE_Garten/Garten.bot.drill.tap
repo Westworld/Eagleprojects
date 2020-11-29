@@ -1,0 +1,119 @@
+(.../Documents/EAGLE/ulps/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../projects/BLE_Garten/Garten.brd)
+(Current profile is .../EAGLE/ulps/profiles/generic.pp  )
+(This file generated 14.09.19 10:42)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.1000 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(10.4000 	3.5400 	-0.2800 	-2.6128 )
+(spindle on time = 3.0000)
+(milling depth = -2.2000)
+(text depth = -0.1270)
+(tool change at 0.0000 0.0000 20.4000 )
+(feed rate xy = F508.00 )
+(feed rate z  = F50.00 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0025)
+(isolate max = 0.2500)
+(isolate step = 0.2000)
+(Generated bottom outlines, bottom drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01  1.016mm 0.0400in 0.0000in 0.0000in )
+( T02  1.118mm 0.0440in 0.0000in 0.0000in )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+M05
+G00 Z20.4000 
+G00 X0.0000 Y0.0000 
+M06 T01  ; 1.0160 
+G01 Z0.0000 F50.00 
+M06 T01  ; 1.0160 
+G00 Z3.5400 
+M03
+G04 P3.000000
+G00 Z3.540000
+G00 X-0.1115 Y20.8779 
+G01 Z-2.6128 F50.00 
+G01 Z3.540000
+(R3.5400  P2.000000)
+(G00 Z3.540000)
+G00 X-0.1673 Y34.2359 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-5.1915 Y20.8779 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-5.2473 Y34.2359 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-7.7873 Y34.2359 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-10.3273 Y34.2359 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-11.8475 Y22.3367 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-12.8673 Y34.2359 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-14.3875 Y22.3367 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-15.4073 Y34.2359 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-16.9275 Y22.3367 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-17.9473 Y34.2359 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-2.6515 Y20.8779 
+G01 Z-2.612800
+G01 Z3.540000
+(G00 Z3.540000)
+G00 X-2.7073 Y34.2359 
+G01 Z-2.612800
+G01 Z3.540000
+M05
+G00 Z20.4000 
+M06 T02  ; 1.1176 
+G01 Z0.0000 F50.00 
+M06 T02  ; 1.1176 
+G00 Z3.5400 
+M03
+G04 P3.000000
+G00 Z3.540000
+G00 X-14.2464 Y11.6946 
+G01 Z-2.6128 F50.00 
+G01 Z3.540000
+(R3.5400  P2.000000)
+(G00 Z3.540000)
+G00 X-17.1515 Y15.6982 
+G01 Z-2.612800
+G01 Z3.540000
+T01 
+G00 Z10.4000 
+M05
+M02

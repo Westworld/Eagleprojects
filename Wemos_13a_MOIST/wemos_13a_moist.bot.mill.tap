@@ -1,0 +1,51 @@
+(.../Documents/EAGLE/ulps/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../Wemos_13a_MOIST/wemos_13a_moist.brd)
+(Current profile is .../EAGLE/ulps/profiles/generic.pp  )
+(This file generated 04.01.20 12:28)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(1.3000 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(20.4000 	2.0000 	-0.1500 	-1.8000 )
+(spindle on time = 3.0000)
+(milling depth = -1.3000)
+(text depth = -0.1000)
+(tool change at 0.0000 0.0000 20.4000 )
+(feed rate xy = F208.00 )
+(feed rate z  = F100.00 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0100)
+(isolate max = 0.5000)
+(isolate step = 0.1000)
+(Generated bottom outlines, bottom drill, )
+(Unit of measure: mm)
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+G00 X0.0000 Y0.0000 
+M03
+G04 P3.000000
+G00 Z2.0000 
+G00 X-2.5400 Y55.2450 
+G01 Z-1.3000 F100.00 
+G01 X-41.9100 Y55.2450 F208.00 
+G00 Z2.0000 
+G00 X-50.1650 Y55.2450 
+G01 Z-1.3000 F100.00 
+G01 X-88.2650 Y55.2450 F208.00 
+G00 Z2.0000 
+G00 X-91.4400 Y5.0800 
+G01 Z-1.3000 F100.00 
+G01 X-91.4400 Y52.7050 F208.00 
+G00 Z2.0000 
+G00 X-45.7200 Y55.2450 
+G01 Z-1.3000 F100.00 
+G01 X-45.7200 Y6.3500 F208.00 
+G00 Z20.4000 
+M05
+M02

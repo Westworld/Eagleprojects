@@ -1,0 +1,42 @@
+(.../Documents/EAGLE/ulps/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../projects/BLE_Garten/Garten.brd)
+(Current profile is .../EAGLE/ulps/profiles/generic.pp  )
+(This file generated 14.09.19 10:42)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(2.2000 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(10.4000 	3.5400 	-0.2800 	-2.6128 )
+(spindle on time = 3.0000)
+(milling depth = -2.2000)
+(text depth = -0.1270)
+(tool change at 0.0000 0.0000 20.4000 )
+(feed rate xy = F508.00 )
+(feed rate z  = F50.00 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0025)
+(isolate max = 0.2500)
+(isolate step = 0.2000)
+(Generated bottom outlines, bottom drill, )
+(Unit of measure: mm)
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+G00 X0.0000 Y0.0000 
+M03
+G04 P3.000000
+G00 Z3.5400 
+G00 X2.4520 Y39.2087 
+G01 Z-2.2000 F50.00 
+G01 X-24.4117 Y39.4320 F508.00 
+G01 X-24.5408 Y7.7121 
+G01 X2.2800 Y7.6179 
+G01 X2.4090 Y39.2087 
+G00 Z10.4000 
+M05
+M02
